@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500;600;700;800&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+h1
+{
+    font-weight: 600;
+}
+/* Title Section */
+.navbar
+{
+    padding: 1rem 2rem;
+}
+.navbar-brand
+{
+    width: 100px;
+}
+.nav-item
+{
+    font-weight: 600;
+    padding: 0 1rem;
+}
+
+.get-started-button
+{
+    width: 10rem;
+}
+.banner-row
+{
+    padding: 2rem 0;
+    padding-bottom: 10rem;
+    
+}
+.banner-img
+{
+    width: 80%;
+}
+.title
+{
+    background-image: url('assets/bg-curve-desktop.svg');
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media screen and (max-width:450px) {
+    .navbar-nav
+    {
+        display: flex;
+        flex-direction: row;
+        width: 70vw;
+    }   
+}
+
+
+
+/* Info Section */
+.info-section
+{
+    padding: 3rem 0;
+    background-color: hsl(240, 75%, 98%);
+}
+#info-img
+{
+    width: 80%;
+}
+.info-row 
+{
+    gap: 3rem;
+}
+#woking-link
+{
+    color: green;
+}
+.fa-circle-arrow-right
+{
+    color: green;
+}
+
