@@ -70,9 +70,13 @@ h1
 {
     gap: 3rem;
 }
-#woking-link
+.woking-link
 {
     color: green;
+}
+.working-link:hover
+{
+    color: hsl(238, 22%, 44%);
 }
 .fa-circle-arrow-right
 {
@@ -145,13 +149,33 @@ footer a
     text-decoration: none;
     color: white;
 }
-.brand-footer
+.phone
 {
-    
+    padding-top: 20px;
 }
 .menu-footer
 {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+}
+.social
+{
+    display: flex;
+    gap: 2rem;
+    font-size: 20px;
+}
+.social >*:hover
+{
+    color: hsl(224, 93%, 58%);
+}
+.disp
+{
+    display: flex;
+    gap: 10px;
+}
+.footer-icon
+{
+    width: 20px;
+    height: fit-content;
 }
